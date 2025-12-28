@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html>
 
 <head>
@@ -8,9 +7,62 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+	<form method="post">
 
+		<!-- Name -->
+		<label for="name">Name</label><br>
+		<input type="text" id="name" required>
+		<br><br>
+
+		<!-- Email -->
+		<label for="email">Email</label><br>
+		<input type="email" id="email" required>
+		<br><br>
+
+		<!-- Gender -->
+		<label for="gender_m">Gender</label><br>
+		<input type="radio" id="gender_m" name="gender" required>
+		<label for="gender_m">Male</label><br>
+
+		<input type="radio" id="gender_f" name="gender">
+		<label for="gender_f">Female</label>
+		<br><br>
+
+		<!-- Laptop Brands -->
+		<label for="laptop">Laptop Brands</label><br>
+		<select id="laptop">
+			<option>Apple</option>
+			<option>Asus</option>
+			<option>HP</option>
+		</select>
+		<br><br>
+
+		<!-- Age -->
+		<label for="age">Age</label><br>
+		<input type="number" id="age" required>
+		<br><br>
+
+		<!-- Date of Birth -->
+		<label for="dob">Date of Birth</label><br>
+		<input type="date" id="dob" required>
+		<br><br>
+
+		<!-- Password -->
+		<label for="password">Password</label><br>
+		<input type="password" id="password" required>
+		<br><br>
+
+		<!-- Portfolio URL -->
+		<label for="portfolio">Portfolio URL</label><br>
+		<input type="url" id="portfolio">
+		<br><br>
+
+		<!-- Submit Button -->
+		<button type="submit">Submit</button>
+
+	</form>
+
+	<script type="text/javascript" src="./script.js"></script>
 </body>
 
 </html>
